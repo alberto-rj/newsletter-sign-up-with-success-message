@@ -13,6 +13,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -109,3 +110,7 @@ Users should be able to:
 - GitHub - [@alberto-rj](https://github.com/alberto-rj)
 - Frontend Mentor - [@alberto-rj](https://www.frontendmentor.io/profile/alberto-rj)
 - Twitter - [@albertorauljose](https://www.twitter.com/albertorauljose)
+
+## Acknowledgments
+
+Thank you very much [Grace Snow](https://www.frontendmentor.io/profile/grace-snow) for the great suggestions you provided. They were useful because they helped me to significantly improve this solution, especially in terms of accessibility and performance.
