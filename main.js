@@ -10,11 +10,13 @@ const emailOutput = document.getElementById('emailOutput');
 const showError = () => {
   emailParent.classList.add('invalid');
   emailField.setAttribute('aria-invalid', 'true');
+  emailField.setAttribute('aria-describedby', 'emailError');
 };
 
 const hideError = () => {
   emailParent.classList.remove('invalid');
   emailField.removeAttribute('aria-invalid');
+  emailField.removeAttribute('aria-describedby');
 };
 
 const showComponent = component => {
