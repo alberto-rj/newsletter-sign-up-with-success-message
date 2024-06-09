@@ -22,7 +22,7 @@ const hideError = () => {
 const showComponent = component => {
   component.classList.remove('d-none');
   component.classList.add('slide');
-  component.focus();
+  component.querySelector('.heading').focus();
 };
 
 const hideComponent = component => {
