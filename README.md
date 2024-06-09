@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - [My live site on GitHub Pages](https://alberto-rj.github.io/newsletter-sign-up-with-success-message/)
-- [My solution on Frontend Mentor](https://your-solution-url.com)
+- [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/animated-newsletter-signup-form-mriIaG8Yk1)
 
 ## My process
 
