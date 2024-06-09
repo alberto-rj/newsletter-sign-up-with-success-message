@@ -53,18 +53,7 @@ Users should be able to:
 
 - `novalidate`: I used the `novalidate` attribute on the `form` element to prevent the browser from validating the `form` by default.
 
-- `aria-live="polite"`: I used this to make the error message accessible to screen reader users.
-
-  ```html
-  <form novalidate>
-    <div>
-      <label for="emailField">Email address</label>
-      <input type="email" id="emailField" name="email" required />
-      <span aria-live="polite"></span>
-    </div>
-    <button>Submit</button>
-  </form>
-  ```
+- `role="alert"`, `aria-live="polite"`, `aria-describedby` and `aria-invalid`: I used these to make the error message accessible for screen reader users.
 
 - **Constraint validation API**
 
