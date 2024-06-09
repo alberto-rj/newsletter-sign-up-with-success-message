@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [My live site on GitHub Pages](https://your-live-site-url.com)
+- [My live site on GitHub Pages](https://alberto-rj.github.io/newsletter-sign-up-with-success-message/)
 - [My solution on Frontend Mentor](https://your-solution-url.com)
 
 ## My process
