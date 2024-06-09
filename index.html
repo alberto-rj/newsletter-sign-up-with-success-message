@@ -68,13 +68,13 @@
           <form id="form" novalidate>
             <div class="field">
               <label for="emailField">Email address</label>
-              <span class="move" role="alert" aria-live="polite">Valid email required</span>
+              <span id="emailError" class="move" role="alert" aria-live="polite">Valid email required</span>
               <input
                 type="email"
                 id="emailField"
                 name="email"
                 placeholder="email@company.com" 
-                required 
+                required
               />
             </div>
             <button>Subscribe to monthly newsletter</button>
