@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <meta 
+    name="title" 
+    content="Frontend Mentor | Newsletter sign-up form with success message"
+  />
+  <meta 
+    name="description" 
+    content="This is Alberto Raúl José's solution to the Newsletter sign-up form with success message challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects."
+  />
+  <meta name="author" content="Alberto Raúl José">
+
+  <!-- Favicon -->
+  <meta name="favicon" content="./assets/images/favicon-32x32.png" />
+  <link 
+    rel="icon" 
+    type="image/png" 
+    sizes="32x32" 
+    href="./assets/images/favicon-32x32.png"
+  />
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/fonts.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <!-- scripts -->
+  <script src="./main.js" defer></script>
+</head>
+<body class="page">
+  <main class="page-content">
+    <div id="component-1">
+      <!-- Sign-up form start -->
+      <div class="sign-up">
+        <div class="content-1">
+          <picture>
+            <source
+              media="(min-width: 64rem)"
+              srcset="./assets/images/illustration-sign-up-desktop.svg"
+            />
+            <img
+              src="./assets/images/illustration-sign-up-mobile.svg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="content-2">
+          <h1 class="move-0 heading">Stay updated!</h1>
+          <p class="move-1">Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li class="move-2">
+              <img src="assets/images/icon-list.svg" alt="">
+              Product discovery and building what matters
+            </li>
+            <li class="move-3">
+              <img src="assets/images/icon-list.svg" alt="">
+              Measuring to ensure updates are a success
+            </li>
+            <li class="move-4">
+              <img src="assets/images/icon-list.svg" alt="">
+              And much more!
+            </li>
+          </ul>
+          <form id="form" novalidate>
+            <div class="field">
+              <label for="emailField">Email address</label>
+              <span class="move" role="alert" aria-live="polite">Valid email required</span>
+              <input
+                type="email"
+                id="emailField"
+                name="email"
+                placeholder="email@company.com" 
+                required 
+              />
+            </div>
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+      </div>
+      <!-- Sign-up form end -->
+    </div>
+    <div id="component-2" class="d-none">
+      <!-- Success message start -->
+      <div class="success-message content-2">
+        <div class="body">
+          <div class="icon-box">
+            <img src="assets/images/icon-success.svg" alt="">
+          </div>
+          <h1 class="heading move-2 ">Thanks for subscribing!</h1>
+          <p class="move-3">
+            A confirmation email has been sent to <span class="output" id="emailOutput"></span>.
+            Please open it and click the button inside to confirm your subscription.
+          </p>
+        </div>
+        <button>Dismiss message</button>
+      </div>
+      <!-- Success message end -->
+    </div>
+  </main>
+  <footer class="page-footer">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/alberto-rj" target="_blank">Alberto Raúl José</a>.
+    </p>
+  </footer>
+</body>
+</html>
