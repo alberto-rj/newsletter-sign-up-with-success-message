@@ -294,3 +294,12 @@ button:focus-visible {
   }
 }
 /* Animation Keyframes */
+
+@media (prefers-reduced-motion) {
+  *::before,
+  *,
+  *::after {
+    animation: none;
+    transition: none;
+  }
+}
